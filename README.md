@@ -54,36 +54,5 @@ CODSOFT_TASK2/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
-
-## GitHub publishing
-
-Create or use the repository name specified by your internship coordinator. The internship PDF asks interns to keep their tasks in a separate repository using the `CODSOFT_TASKSNO` naming convention; if one repository is intended for all tasks, place this project in a `Task2/` subfolder.
-
-```bash
-git init
-git add .
-git commit -m "Complete CodSoft Task 2: Tic-Tac-Toe Minimax AI"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/CODSOFT_TASKSNO.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and the repository name with your actual details.
-
-## Suggested demo video (60–90 seconds)
-
-1. Introduce the project as CodSoft AI Internship Task 2.
-2. Show the board and explain that you play as `X`.
-3. Demonstrate the AI blocking an immediate threat or taking a winning move.
-4. Explain Minimax and alpha-beta pruning briefly.
-5. Run `python -m unittest -v`.
-6. Show the real GitHub repository link.
-
-## Suggested LinkedIn caption
-
-> Completed Task 2 of my CodSoft Artificial Intelligence internship: Tic-Tac-Toe AI using Python. The AI uses the Minimax algorithm with alpha-beta pruning to evaluate possible moves and play optimally against a human player. I also added unit tests for game logic and AI decisions.
->
-> GitHub: [add your real repository link]
->
+ 
 > @CODSOFT #codsoft #artificialintelligence #python #internship #minimax
